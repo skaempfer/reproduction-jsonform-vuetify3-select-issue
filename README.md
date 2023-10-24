@@ -1,53 +1,15 @@
-# default
+# Reproduction JsonForms Vuetify3 Select Issue
 
-## Project setup
+This repoository is a reproduction scenario for an issue when using JsonForms with the Vuetify3 adapter.
 
-```
-# yarn
-yarn
+The following issue happens: Changes of a select field are not captured in the onchange event of the `<json-forms>` element.
 
-# npm
-npm install
+## Running the example locally
 
-# pnpm
-pnpm install
+1. Run `npm ci`
+2. Run `npm run dev`
+3. Open browser and navigate to `http://localhost:3000`
 
-# bun
-bun install
-```
+## Observable behaviour
 
-### Compiles and hot-reloads for development
-
-```
-# yarn
-yarn dev
-
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# bun
-bun run dev
-```
-
-### Compiles and minifies for production
-
-```
-# yarn
-yarn build
-
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# bun
-bun run build
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
+The value of the `data` object that is passed in the `onchange` event parameter is printed underneath the form. It contains all form data, except the one from the select field. 
