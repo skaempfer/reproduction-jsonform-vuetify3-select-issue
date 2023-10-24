@@ -6,9 +6,10 @@ The following issue happens: Changes of a select field are not captured in the o
 
 ## Running the example locally
 
-1. Run `npm ci`
-2. Run `npm run dev`
-3. Open browser and navigate to `http://localhost:3000`
+1. Navigate to `app` folder
+2. Run `npm ci`
+3. Run `npm run dev`
+4. Open browser and navigate to `http://localhost:3000`
 
 ## Observable behaviour
 
