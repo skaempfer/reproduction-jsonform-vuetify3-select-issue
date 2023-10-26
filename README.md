@@ -4,6 +4,10 @@ This repoository is a reproduction scenario for an issue when using JsonForms wi
 
 The following issue happens: Changes of a select field are not captured in the onchange event of the `<json-forms>` element.
 
+## Seeing the example on GitHub pages
+
+Visit [https://skaempfer.github.io/reproduction-jsonform-vuetify3-select-issue/](https://skaempfer.github.io/reproduction-jsonform-vuetify3-select-issue/) to use the reproduction application.
+
 ## Running the example locally
 
 1. Navigate to `app` folder
